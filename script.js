@@ -1,10 +1,10 @@
-// Gme constants and variables
+// Game constants and variables
 let inputDir = { x: 0, y: 0 };
-let eating = new Audio("./Music/eating.mp3");
-let crash = new Audio("./Music/crash.mp3");
-let bgmusic = new Audio("./Music/bgmusic.mp3")
-let success = new Audio("./Music/success.mp3")
-let move = new Audio("./Music/move.mp3")
+let eating = new Audio("eating.mp3");
+let crash = new Audio("crash.mp3");
+let bgmusic = new Audio("bgmusic.mp3")
+let success = new Audio("success.mp3")
+let move = new Audio("move.mp3")
 let lastPaintTime = 0;
 let speed = 9;
 let score = 0;
